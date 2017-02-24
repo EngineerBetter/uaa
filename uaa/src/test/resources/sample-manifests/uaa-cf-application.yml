@@ -2,7 +2,7 @@
 ---
 applications:
 - name: uaa
-  memory: 1024M
+  memory: 256M
   instances: 1
   random-route: false
   path: ../../uaa/build/libs/cloudfoundry-identity-uaa-@version@.war
